@@ -1,0 +1,73 @@
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Mojang','Suède');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Blizzard Entertainment','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Valve Corporation','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('The Sims Studio','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('ArenaNet','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Maxis','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Facepunch Studios','Royaume-Uni');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Cyan','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Re-Logic','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Firaxis Games','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Cyan Worlds','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Blizzard North','États-Unis');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Bullfrog Productions','Royaume-Uni');  
+INSERT INTO Developpeur(Dnom,Dpays) VALUES ('Chris Sawyer','Royaume-Uni');  
+
+
+INSERT INTO Editeur(Enom,Epays) VALUES ('Microsoft','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Blizzard Entertainment','États-Unis'); 
+INSERT INTO Editeur(Enom,Epays) VALUES ('Activision Blizzard','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Valve Corporation','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Electronic Arts','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Sierra Entertainment','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('NCsoft','Corée du Sud');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Facepunch Studios','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Brøderbund','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Re-Logic','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('2K Games','États-Unis');  
+INSERT INTO Editeur(Enom,Epays) VALUES ('Red Orb Entertainment','États-Unis'); 
+INSERT INTO Editeur(Enom,Epays) VALUES ('MicroProse Software','États-Unis');  
+
+
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2009-05-17',21000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2004-11-23',14000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2012-05-15',12000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2004-11-16',12000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('1998-03-31',11000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2009-06-02',10000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('1998-11-19',9300000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2012-08-28',7000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2005-04-28',6500000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2000-02-04',6300000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2004-12-24',6000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('1993-09-24',6000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2004-09-14',6000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2010-07-27',6000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2011-05-16',6000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2010-09-21',5800000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('1997-10-29',4500000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('2000-06-29',4000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('1989-06-05',4000000);  
+INSERT INTO Produit(date_sortie,nb_ventes) VALUES ('1999-03-31',4000000);  
+
+
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (1,1,1,'Minecraft','Minecraft','Bac à sable');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (2,2,2,'World of Warcraft','Warcraft','Jeu de rôle');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (2,3,3,'Diablo III','Diablo','Action-RPG');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (3,4,4,'Half-Life 2','Half-Life','Tir à la première personne');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (2,2,5,'StarCraft','StarCraft','Stratégie en temps réel');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (4,5,6,'The Sims 3','The Sims','Simulation de vie');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (3,6,7,'Half-Life','Half-Life','Tir à la première personne');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (5,7,8,'Guild Wars 2','Guild Wars','Jeu de rôle');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (5,7,9,'Guild Wars','Guild Wars','Jeu de rôle');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (6,5,10,'The Sims','The Sims','Simulation de vie');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (7,8,11,'Garry''s Mod',NULL,'Bac à sable');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (8,9,12,'Myst','Myst','Aventure');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (6,5,13,'The Sims 2','The Sims','Simulation de vie');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (2,2,14,'StarCraft II: Wings of Liberty','StarCraft','Stratégie en temps réel');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (9,10,15,'Terraria','Terraria','Bac à sable');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (10,11,16,'Civilization V','Civilization','Stratégie au tour par tour');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (11,12,17,'Riven','Myst','Aventure');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (12,2,18,'Diablo II','Diablo','Action-RPG');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (13,5,19,'Populous','Populous','Stratégie en temps réel');  
+INSERT INTO Jeu(n_developpeur,n_editeur,n_produit,nom,serie,genre) VALUES (14,13,20,'RollerCoaster Tycoon','RollerCoaster Tycoon','Gestion');  
